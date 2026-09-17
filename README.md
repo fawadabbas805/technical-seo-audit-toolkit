@@ -1,48 +1,34 @@
 # Technical SEO Audit Toolkit
 
-A practical Technical SEO toolkit for identifying common crawling, indexing, metadata, canonicalization, redirect, and on-page technical issues.
+A practical Python-based Technical SEO toolkit for auditing URLs and identifying common crawling, indexing, metadata, canonicalization, redirect, and on-page SEO issues.
 
 This project demonstrates how technical SEO checks can be automated and organized to support website audits alongside tools such as Screaming Frog SEO Spider and Google Search Console.
 
 ## 🔍 What This Toolkit Checks
 
-The toolkit is designed to analyze:
+The current audit script analyzes:
 
 - HTTP status codes
-- Redirects
+- Redirected/final URLs
 - Page titles
+- Title length
 - Meta descriptions
+- Meta description length
 - H1 headings
 - Canonical URLs
 - Meta robots directives
-- Indexability signals
-- Internal links
-- Broken links
-- Missing SEO elements
 
-## 🛠 Technical SEO Use Cases
-
-This toolkit can support:
-
-- Technical SEO Audits
-- Website Migration Checks
-- Indexing Investigations
-- Redirect Audits
-- On-Page SEO Audits
-- Google Search Console Investigations
-- WordPress SEO Audits
-- Shopify SEO Audits
+The results are automatically exported to a CSV file for further analysis.
 
 ## 📁 Project Structure
 
 ```text
 technical-seo-audit-toolkit/
 │
+├── docs/
+│   └── technical-seo-checklist.md
 ├── README.md
-├── seo_audit.py
 ├── requirements.txt
 ├── sample_urls.csv
 ├── sample_output.csv
-│
-└── docs/
-    └── technical-seo-checklist.md
+└── seo_audit.py
