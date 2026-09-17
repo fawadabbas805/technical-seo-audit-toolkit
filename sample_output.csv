@@ -1,0 +1,4 @@
+URL,Status Code,Final URL,Title,Title Length,Meta Description,Meta Description Length,H1,Canonical,Meta Robots
+https://example.com/,200,https://example.com/,Example Domain,14,,0,Example Domain,,
+https://www.python.org/,200,https://www.python.org/,Welcome to Python.org,21,The official home of the Python Programming Language,52,Intuitive Interpretation,,
+https://www.wikipedia.org/,200,https://www.wikipedia.org/,Wikipedia,9,"Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",130,Wikipedia The Free Encyclopedia,,
